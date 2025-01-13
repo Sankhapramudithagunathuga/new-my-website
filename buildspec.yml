@@ -7,7 +7,7 @@ phases:
       - npm install -g @angular/cli@17
   pre_build:
     commands:
-      - npm insatll
+      - npm install
   build:
     command:
       - ng build -c production
